@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Trainer - Guilherme Nonato</title>
+    <link href="./styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Faixa 1: Apresentação do Personal Trainer -->
+    <section class="faixa" id="apresentacao">
+        <div class="container">
+            <h1>Guilherme Nonato</h1>
+            <p>Sou personal trainer com 10 anos de experiência, especializado em treinos personalizados para resultados rápidos e eficazes. Acredito no poder da motivação e da adaptação para cada aluno.</p>
+        </div>
+    </section>
+
+    <!-- Faixa 2: Serviços Oferecidos -->
+    <section class="faixa" id="servicos">
+        <div class="container">
+            <h2>Serviços Oferecidos</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Consultoria Presencial</h3>
+                    <img src="components\images\homem-negro-sorridente-levantando-a-barra-com-personal-trainer_1262-16411.jpg" alt="Consultoria Presencial">
+                    <p>Acompanhamento físico com treinos presenciais personalizados.</p>
+                </div>
+                <div class="card">
+                    <h3>Consultoria Online</h3>
+                    <img src="components\images\feche-a-mao-segurando-o-tapete-de-ioga_23-2149249507.jpg" alt="Consultoria Online">
+                    <p>Planos de treino e acompanhamento virtual, com suporte constante.</p>
+                </div>
+                <div class="card">
+                    <h3>Avaliação Física</h3>
+                    <img src="components\images\feche-a-mao-segurando-o-adipometro_23-2149941496.jpg" alt="Avaliação Física">
+                    <p>Exames e testes para avaliar sua condição física e personalizar seu treino.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faixa 3: Vantagens e Benefícios -->
+    <section class="faixa" id="vantagens">
+        <div class="container">
+            <h2>Vantagens e Benefícios</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Treinamento Personalizado</h3>
+                    <img src="components\images\homem-que-usa-uma-maquina-da-imprensa-em-um-clube-de-fitness_155003-8715.jpg">
+                    <p>Treinamento personalizado de acordo com os objetivos.</p>
+                </div>
+                <div class="card">
+                    <h3>Acompanhamento Contínuo</h3>
+                    <img src="components\images\jovens-esportes-treinando-em-uma-academia-de-manha_1157-28954.jpg">
+                    <p>Acompanhamento contínuo e motivação.</p>
+                </div>
+                <div class="card">
+                    <h3>Flexibilidade de Horários</h3>
+                    <img src="components\images\mulher-jovem-fitness-em-roupas-esportivas-com-bandana-segurando-um-relogio-de-parede-feliz-e-animada-mostrando-os-polegares-em-pe-sobre-a-parede-laranja_141793-49960.jpg">
+                    <p>Flexibilidade de horários para sua conveniência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faixa 4: Depoimentos de Clientes -->
+    <section class="faixa" id="depoimentos">
+        <div class="container">
+            <h2>Depoimentos de Clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Maria Silva</h3>
+                    <img src="components\images\mulher-treinando-para-levantamento-de-peso-no-ginasio_23-2149278062.avif">
+                    <p>"Os treinos me ajudaram a perder peso e melhorar minha saúde. Estou mais disposta e feliz!"</p>
+                </div>
+                <div class="card">
+                    <h3>João Souza</h3>
+                    <img src="components\images\jovem-atletico-feliz-fazendo-musculacao-no-health-club_637285-8340.jpg">
+                    <p>"Com o acompanhamento contínuo, consegui alcançar meu objetivo de força e resistência!"</p>
+                </div>
+                <div class="card">
+                    <h3>Ana Costa</h3>
+                    <img src="components\images\pessoa-no-ginasio-de-esporte-usando-kettlebells_23-2149255859.avif">
+                    <p>"O plano de treino foi fundamental para minha transformação física e mental!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faixa 5: Chamada para Ação (Contato) -->
+    <section class="faixa" id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone (opcional):</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="servico">Tipo de serviço desejado:</label>
+                <select id="servico" name="servico">
+                    <option value="treinamento">Treinamento Personalizado</option>
+                    <option value="consultoria">Consultoria Fitness</option>
+                    <option value="avaliacao">Avaliação Física</option>
+                    <option value="online">Aulas Online</option>
+                </select>
+
+                <label for="comentarios">Comentários ou dúvidas:</label>
+                <textarea id="comentarios" name="comentarios"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
